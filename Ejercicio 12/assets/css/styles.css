@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.menu-navigation{
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    justify-items:center;
+}
+
+.menu-navigation li{
+    display: inline-block;
+   
+}
+
+.menu-navigation a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.menu-navigation a:hover{
+    color:white;
+    background-color: #0c5ffe;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1, h2, h3{
+    color:black;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ol li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.caja{
+    border: solid 1px black;
+    margin: 50px;
+    padding: 20px;
+}
+
+table{
+    padding: 40px;
+}
+table tr th{
+    text-decoration: double;
+}
+
+tr td{
+    text-decoration: double;
+}
+
+img{
+    width: 40px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.work-box{
+    width: 25%;
+}
+
+.work-box img{
+    width: 100%;
+}
+
+.comment{
+    text-align: center;
+}
+
+.container-end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+footer {
+    background-color: #fe3b00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+}
+
+.contact-info {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.social-links {
+    list-style-type: none; /* Quita los puntos de lista */
+    padding: 0; /* Elimina el relleno */
+}
+
+.social-links li {
+    display: inline-block; /* Coloca los elementos en línea */
+    margin-right: 10px; /* Espacio entre los enlaces */
+}
+
+.social-links li a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+.legal {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.additional-links ul {
+    list-style-type: none; /* Quita los puntos de lista */
+    padding: 0; /* Elimina el relleno */
+}
+
+.additional-links li {
+    display: inline-block; /* Coloca los elementos en línea */
+    margin-right: 10px; /* Espacio entre los enlaces */
+}
+
+.additional-links li a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+.image-credits {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+}
